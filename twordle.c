@@ -22,7 +22,6 @@ int main(){
 	char guessList[MAX_GUESS][WORD_MAX];
 
 	openText(word);
-	lowerCase(word);
 
 	int guessCount = 0;
 
